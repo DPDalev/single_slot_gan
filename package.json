@@ -1,0 +1,28 @@
+{
+  "name": "new-try",
+  "version": "1.0.0",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "star1": "webpack && node server.js",
+    "start": "webpack-dev-server --mode development",
+    "star2": "node server.js",
+    "dev": "webpack && node server.js --mode development --open"
+  },
+  "author": "DPD",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "http-server": "^14.1.1",
+    "pixi.js": "^8.6.0",
+    "typescript": "^5.7.2",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "ts-loader": "^9.5.1"
+  }
+}
